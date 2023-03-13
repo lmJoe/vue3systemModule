@@ -6,10 +6,10 @@ export default {
         console.log(process.env.NODE_ENV)
         if (process.env.NODE_ENV == "development") {
             //开发环境
-            return "https://adminapi.pxtadmin.com:58081";
+            return "xx";
         } else {
             //正式环境
-            return "https://adminapi.pxtadmin.com:58081";
+            return "xx";
         }
     },
     /*
